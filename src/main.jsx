@@ -14,3 +14,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </ThemeProvider>
   </React.StrictMode>
 );
+
+// *TODO If you don't pass the CssBaseline component we will not be able to see the MUI dark theme.
