@@ -5,3 +5,5 @@ export const theme = createTheme({
     mode: "dark",
   },
 });
+
+// *TODO make theme dark with MUI
