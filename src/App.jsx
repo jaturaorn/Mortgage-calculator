@@ -20,6 +20,10 @@ function App() {
     <>
       <Navbar />
       <Container maxWidth="xl" sx={{ marginTop: 4 }}>
+        {/* Grid creates visual consistency between layouts while allowing flexibility across a wide variety of designs. 
+        Material Design's responsive UI is based on a 12-column grid layout
+        Grid container represents the parent element 
+        Grid item represents the child element */}
         <Grid container spacing={5} alignItems="center">
           <Grid item xs={12} md={6}>
             <SliderSelect data={data} setData={setData} />
